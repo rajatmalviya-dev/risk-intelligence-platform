@@ -7,7 +7,9 @@ authors = [
     { name = "Rajat Malviya" }
 ]
 requires-python = ">=3.13,<3.14"
-dependencies = []
+dependencies = [
+    "ucimlrepo>=0.0.7",
+]
 
 [build-system]
 requires = ["uv_build>=0.11.12,<0.12.0"]
